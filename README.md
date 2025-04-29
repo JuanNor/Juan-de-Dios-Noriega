@@ -14,3 +14,5 @@ Generar un nuevo dataset con únicamente los valores del año 2024
 Generar predicciones y reescalado
 Gráfica de comparación
 R-squared
+
+Observación: como se puede observar, el código no presenta errores al momento de la ejecución, sin embargo, la predicción no es del todo acertada respecto a los datos originales, después de investigar acerca del por qué se puede dar esta situación existen 2 principales candidatos: problema en el escalado y/o reescalado de datos, porque el patrón de las gráficas (picos, bajadas, etc) es igual en ambas, solo que en los datos predichos parecen estar en una escala distinta, después de intentar corregir este error (variando el número de épocas, dropout, de capas, etc), este fue el mejor resultado obtenido.
